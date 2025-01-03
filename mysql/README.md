@@ -235,6 +235,8 @@
             WHERE  city.Population >= 5000000 
                 AND city.Population <= 6000000;
 
+
+
             -- 인구수가 5598953이 아닌(!=, <>) 도시의 모든 개수를 구하시오
             -- 개수는 count(*) 함수 사용, 별칭 부여 cnt
             SELECT COUNT(*) AS cnt
